@@ -1,4 +1,4 @@
-package com.dpt.test;
+package com.dpt.demo;
 
 import java.util.ResourceBundle;
 

@@ -1,4 +1,4 @@
-package com.dpt.test;
+package com.dpt.demo;
 
 import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClient;
 import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClientBuilder;
