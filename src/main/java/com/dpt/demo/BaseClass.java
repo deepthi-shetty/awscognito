@@ -13,6 +13,7 @@ public class BaseClass {
 	public static final String APP_CLIENT_SECRET;
 	public static final String APP_NOSECRET_CLIENT_ID;
 
+	public static final String COGNITO_URL;
 	public static final String REDIRECT_URI;
 
 	public static final String USER_ID;
@@ -26,6 +27,7 @@ public class BaseClass {
 		APP_CLIENT_SECRET = config.getString("app_client_secret");
 		APP_NOSECRET_CLIENT_ID = config.getString("app_no_secret_client_id");
 
+		COGNITO_URL = config.getString("cognito_userpool_url");
 		REDIRECT_URI = config.getString("cognito_redirect_uri");
 
 		USER_ID = config.getString("test_user_id");
